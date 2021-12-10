@@ -21,7 +21,7 @@ body {
 
 
 header {
-  background-image: url(https://assets.codepen.io/5651481/Screen+Shot+2021-11-10+at+10.06.15+AM.png);
+  background-image: url(images/Hero.png);
   height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,6 +34,8 @@ nav {
   background:#691111;
   height: 50px;
   font-family:ZodiacNotesRegular;  
+display: flex;
+justify-content: center;
 }
 
 ul li{
@@ -57,7 +59,9 @@ li a:hover {
    display:flex;
   align-items: center;
   background:#DDD9D9;
-  margin: 2rem;
+  margin: 7rem;
+  text-align:left;
+  line-height: 1.9;
 }
 
 .zodiac img {
@@ -76,14 +80,14 @@ p {
 }
 
 .cipher-sect {
-   background-image:url("https://assets.codepen.io/5651481/Transpearent+Cipher+3_1.jpg");
+   background-image:url("images/Transpearent\ Cipher\ 3.jpg");
   background-size: cover;
   
 }
 .cipher {
   width: 250px;
   margin: 10px;
-  padding: 15px;
+  padding: 1px;
   text-align: center;
   background: rgba(0,0,0,.1);
    
@@ -105,7 +109,7 @@ h1{
 /* Timeline */
 
 .timeline {
-   background-image:url("https://assets.codepen.io/5651481/Transpearent+Cipher+3_1.jpg");
+   background-image:url("images/Transpearent\ Cipher\ 3.jpg");
   background-size: cover;
   
 }
@@ -124,7 +128,7 @@ button:hover{
 }
 
 .suspects {
-   background-image:url("https://assets.codepen.io/5651481/Transpearent+Cipher+3_1.jpg");
+   background-image:url("images/Transpearent\ Cipher\ 3.jpg");
   background-size: cover;
   
 }
@@ -144,6 +148,43 @@ button:hover{
   border: 0;
 }
 
+.article-image {
+  width: 80%;
+  height: 70vh;
+  margin: 10px auto;
+  background: url("images/Zodiac Killer Newspaper Headline.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.article-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.articles{
+  background-image:url("images/Transpearent\ Cipher\ 3.jpg");
+  background-size: cover;
+
+}
+
+.articles p {
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px;
+} 
+
+.video{
+  background-image:url("images/Transpearent\ Cipher\ 3.jpg");
+  background-size: cover;
+}
+
+.video p {
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px;
+} 
 
 footer {
   background:#691111;
@@ -156,4 +197,20 @@ footer {
 
 footer p {
   color: white;
+}
+
+.caution-image{
+
+  width: 80%;
+  background-image:url("images/Transpearent\ Cipher\ 3.jpg");
+  background-size: cover;
+  
+  
+}
+
+.caution-image img{
+
+  width: 100;
+  
+
 }
