@@ -61,7 +61,15 @@ li a:hover {
   background:#DDD9D9;
   margin: 7rem;
   text-align:left;
-  line-height: 1.9;
+  line-height: 2.0;
+  
+}
+
+.zodiac p{
+
+  max-width:500px;
+  max: height 15px; ;
+  
 }
 
 .zodiac img {
