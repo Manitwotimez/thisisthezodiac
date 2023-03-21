@@ -32,23 +32,35 @@ header {
 
 nav {
   background:#691111;
-  height: 50px;
+  align-items: center;
   font-family:ZodiacNotesRegular;  
 display: flex;
-justify-content: center;
+justify-content:center;
+padding: 20px;
 }
 
-ul li{
-  list-style-type:none;
-  padding: 15px 0;
-  display: inline-block;
+
+.logo img{
+
+  height: 50px;
 }
+
+ul{
+
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
 li a {
   text-decoration:none;
   color:black;
   padding: 15px;
   font-size: 1.5em;
   color: white;
+margin: 0 10px;
 }
 li a:hover {
   background:#B90606;
