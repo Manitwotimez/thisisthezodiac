@@ -33,7 +33,7 @@ header {
 nav {
   background:#691111;
   align-items: center;
-  font-family:ZodiacNotesRegular;  
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
 display: flex;
 justify-content:center;
 padding: 20px;
@@ -92,6 +92,7 @@ li a:hover {
 p { 
   font-family: 'STIX Two Text', serif;
   line-height: 1.5;
+  
 }
 
 .flex-section {
@@ -107,11 +108,16 @@ p {
 .cipher {
   width: 250px;
   margin: 10px;
-  padding: 1px;
+  padding: 15px;
   text-align: center;
   background: rgba(0,0,0,.1);
    
   
+}
+
+.cipher h1{
+
+  font-size: 20px;
 }
 
 .cipher img {
@@ -122,7 +128,9 @@ p {
 
 h1 {
   font-family:ZodiacNotesRegular;
-  text-align: center
+  text-align: center;
+
+  font-size: 30px;
 }
 
 h2 {
@@ -181,6 +189,11 @@ button:hover{
   background-attachment: fixed;
 }
 
+.articles h1{
+
+  font-size: 30px;
+}
+
 .article-image img {
   width: 100%;
   object-fit: cover;
@@ -201,6 +214,10 @@ button:hover{
 .video{
   background-image:url("images/Transpearent\ Cipher\ 3.jpg");
   background-size: cover;
+}
+
+.video h1{
+  font-size: 30px;
 }
 
 .video p {
