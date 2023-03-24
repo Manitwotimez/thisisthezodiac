@@ -242,16 +242,13 @@ footer p {
 
 .caution-image{
 
-  width: 80%;
   background-image:url("images/Transpearent\ Cipher\ 3.jpg");
   background-size: cover;
   
-  
 }
 
-.caution-image img{
-
-  width: 100;
-  
-
+.caution-image img {
+  width: 100%;
+  object-fit: cover;
 }
+
