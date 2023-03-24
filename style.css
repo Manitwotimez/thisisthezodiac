@@ -86,13 +86,13 @@ li a:hover {
 }
 
 .zodiac img {
-  margin-right: 14px;
+  margin-right: 18px;
 }
 
 
 p { 
   font-family: 'STIX Two Text', serif;
-  line-height: 1.5;
+  justify-content: center;
   
 }
 
